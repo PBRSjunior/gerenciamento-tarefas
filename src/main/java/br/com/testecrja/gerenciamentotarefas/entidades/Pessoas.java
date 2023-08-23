@@ -1,5 +1,10 @@
 package br.com.testecrja.gerenciamentotarefas.entidades;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_pessoas")
 public class Pessoas {
 
 	private Long id;

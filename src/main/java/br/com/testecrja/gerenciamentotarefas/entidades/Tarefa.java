@@ -10,12 +10,11 @@ public class Tarefa {
 	private String Duracao;
 	private String PessoaAlocada;
 	private String Finalizado;
-	
+
 	private Pessoas pessoas;
-	
+
 	public Tarefa() {
-		
-		
+
 	}
 
 	public Long getId() {
